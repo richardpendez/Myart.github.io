@@ -1,0 +1,158 @@
+/*navigation bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent ;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+
+/*BODY*/
+
+.our{
+	display: flex;
+	align-items: center;
+	min-height: 60vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.our .title{
+	width: 130rem;
+	text-align:  center;
+}
+
+.our .title span{
+	font-size: 2.5rem;
+	color: black;
+	padding: 1rem 0;
+	line-height: 1;
+}
+ 
+.our .title h1{
+	font-size: 4rem;
+	color: black;
+	padding: 1rem 0;
+	line-height: 1;
+}
+
+.our .title p{
+	font-size: 1.5rem;
+	color: black;
+	padding: 1rem 0;
+	line-height: 1;
+	font-family: sans-serif;
+}
+
+.navi{
+	background: transparent;
+	padding: 2rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 .5rem 2rem rgb(61, 59, 59);
+}
+
+.navi a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: black;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+.navi a:hover{
+	color: darkred;
+}
+
+.heading{
+	text-align: center;
+	font-size: 2.5rem;
+	color: #333;
+	padding: 1rem;
+	margin:4rem 0;
+	background: rgba(255, 51, 153, .05);
+	font-family: fantasy;
+	font-weight: 300;
+}
+
+.products .box-container{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 9rem;
+    }
+    
+    .products .box-container .box{
+    flex: 1 1 40rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0, 10);
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0, .1);
+    position: relative;
+    }
+    
+    .products .box-container .content{
+    text-align: center;
+    font-size: 2.9vh;
+    font-weight: 500;
+    background: transparent ;
+    justify-content: center;
+    color:black;
+  
+
+    }
+    
+    
+    
+    .products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    overflow: hidden;
+    margin:1.5rem;
+    }
+    
+    img{
+    height: 20rem;
+    padding: 10px;
+    margin: 20px;
+    width: 170px;
+    height: 170px;
+    
+    }
+    
+    
+    
+    
+    .box-container{
+    align-content: center;
+    margin: 10px;
+    }
+
+
+    .our2 .title2 p{
+        font-size: 1.5rem;
+        color: black;
+        padding: 1rem 0;
+        line-height: 1;
+        font-family: sans-serif;
+    }
+    

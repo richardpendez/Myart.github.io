@@ -1,0 +1,38 @@
+/*navigation bar  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent ;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+  /*Body*/
+  
+  h2{
+    text-align: center;
+    font-size: 70px;
+  }
+  h5{
+    text-align: center;
+    font-size: 20px;
+    
+  }
